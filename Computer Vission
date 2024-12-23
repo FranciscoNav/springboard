@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP2nNs3PKvnRGNK4Yg0W5v+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/FranciscoNav/springboard/blob/main/Computer%20Vission\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Lecture Refrence: https://youtu.be/_L2uYfVV48I"
+      ],
+      "metadata": {
+        "id": "fFulL6MFXQ4P"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "deEw4FVcTxfP",
+        "outputId": "802918ba-559e-4b09-edd9-ca60ff63e2a0"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (<ipython-input-1-5155c0433b21>, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-5155c0433b21>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    Lecture Refrence: https://youtu.be/_L2uYfVV48I\u001b[0m\n\u001b[0m            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "import kagglehub\n",
+        "\n",
+        "# Download latest version\n",
+        "path = kagglehub.dataset_download(\"shaunthesheep/microsoft-catsvsdogs-dataset\")\n",
+        "\n",
+        "print(\"Path to dataset files:\", path)"
+      ]
+    }
+  ]
+}
